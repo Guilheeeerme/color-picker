@@ -19,7 +19,7 @@ input[type="text" i] {
 }
 
 #color {
-  width: 80%;
+  width: 240px;
   height: 100px;
 
   margin-top: 10px;
@@ -36,16 +36,4 @@ footer {
 
 footer a {
   text-decoration: none;
-}
-
-@media screen and (min-width: 768px) {
-  #color {
-    width: 70vw;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  #color {
-    width: 50vw;
-  }
 }
