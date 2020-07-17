@@ -4,7 +4,7 @@ const divColor = document.querySelector("#color");
 
 window.addEventListener("load", () => {
   inputValue.forEach((item) => {
-    item.addEventListener("change", (event) => {
+    item.addEventListener("input", (event) => {
       const red = inputValue[0].value;
       const green = inputValue[1].value;
       const blue = inputValue[2].value;
